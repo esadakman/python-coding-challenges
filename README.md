@@ -111,3 +111,34 @@ def points(games):
 points(['1:0','2:0','3:0','4:0','2:1','3:1','4:1','3:2','4:2','4:3']) # 30
 
 ```
+
+## Question 5 (Vowel remover)
+
+- Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+
+Samples:
+
+"hello" --> "hll"
+"codewars" --> "cdwrs"
+"goodbye" --> "gdby"
+"HELLO" --> "HELLO"
+
+- don't worry about uppercase vowels
+- y is not considered a vowel for this kata
+
+```python
+
+def shortcut( s ):
+    vowels = ('a', 'e', 'i', 'o', 'u')
+    newStr  = s
+    for i in s:
+        if i in vowels:
+            newStr = newStr.replace(i,"")
+    return newStr
+
+
+print(shortcut("hello")) # hll
+print(shortcut("codewars")) # cdwrs
+print(shortcut("HELLO")) # HELLO
+
+```
