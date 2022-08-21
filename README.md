@@ -12,10 +12,14 @@
 
 _Return the sum of all the scores on the record._
 
-Samples:\
+Samples:
 
-- Input: ops = ["5", "2", "C", "D", "+"] // Output: 30
-- Input: ops = ["5", "-2", "4", "C", "D", "9", "+", "+"] // Output: 27
+```python
+ Input: ops = ["5", "2", "C", "D", "+"] // Output: 30
+ Input: ops = ["5", "-2", "4", "C", "D", "9", "+", "+"] // Output: 27
+```
+
+Solution:
 
 ```python
 def baseball(ops) :
@@ -45,6 +49,8 @@ print(baseball(ops)) # 27
 
 Note: input will never be an empty string
 
+Solution:
+
 ```python
 def fake_bin(num_str):
     binary = ""
@@ -67,8 +73,12 @@ _Return the sum of all the scores on the record._
 
 Samples:\
 
-- Input: str = ("Hello World!") // Output: Hello World
-- Input: str = ("Hello World!!!") // Output: Hello World
+```python
+ Input: str = ("Hello World!") // Output: Hello World
+ Input: str = ("Hello World!!!") // Output: Hello World
+```
+
+Solution:
 
 ```python
 def remove_exclamation_marks(str):
@@ -92,9 +102,11 @@ if x < y: 0 point\
 if x = y: 1 point\
 
 - Notes:\
--there are 10 matches in the championship
--0 <= x <= 4
--0 <= y <= 4
+  -there are 10 matches in the championship
+  -0 <= x <= 4
+  -0 <= y <= 4
+
+Solution:
 
 ```python
 def points(games):
@@ -118,13 +130,17 @@ points(['1:0','2:0','3:0','4:0','2:1','3:1','4:1','3:2','4:2','4:3']) # 30
 
 Samples:
 
+```python
 "hello" --> "hll"\
 "codewars" --> "cdwrs"\
 "goodbye" --> "gdby"\
-"HELLO" --> "HELLO"\
+"HELLO" --> "HELLO"
+```
 
 - don't worry about uppercase vowels
 - y is not considered a vowel for this kata
+
+Solution:
 
 ```python
 
@@ -140,5 +156,41 @@ def shortcut( s ):
 print(shortcut("hello")) # hll
 print(shortcut("codewars")) # cdwrs
 print(shortcut("HELLO")) # HELLO
+
+```
+
+## Question 6 (Beginner Series #3 Sum of Numbers )
+
+- Given two integers a and b, which can be positive or negative, find the sum of all the integers between and including them and return it. If the two numbers are equal return a or b.
+
+Note: a and b are not ordered!
+
+Samples:
+
+```python
+(1, 0) --> 1 (1 + 0 = 1)
+(1, 1) --> 1 (1 since both are same)
+(-1, 0) --> -1 (-1 + 0 = -1)
+(-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
+```
+
+Solution:
+
+```python
+def get_sum(a,b):
+    result = 0
+    if (a < b):
+        for i in range(a,b+1):
+            result += i
+    elif (a > b):
+        for i in range(b,a+1):
+            result += i
+    else:
+        return a
+    return result
+
+print(get_sum(0,2)) #3
+print(get_sum(2,2)) #2
+print(get_sum(0,-1)) #-1
 
 ```
