@@ -1,6 +1,6 @@
 # python-coding-challenges
 
-## Question 1 (Baseball Game)
+### Question 1 (Baseball Game)
 
 - You are keeping score for a baseball game with strange rules. The game consist of several rounds, where the scores of past rounds may affect future rounds' scores.
 - At the beginning of the game, you start with an empty record. You are given a list of strings `ops`, where `ops[i]` is the ith operation you must apply to the record and is one of the following:
@@ -43,7 +43,7 @@ ops = ["5", "-2", "4", "C", "D", "9", "+", "+"]
 print(baseball(ops)) # 27
 ```
 
-## Question 2 (Fake Binary)
+### Question 2 (Fake Binary)
 
 - Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
 
@@ -65,7 +65,7 @@ def fake_bin(num_str):
 
 ```
 
-## Question 3 (Remove exclamation marks)
+### Question 3 (Remove exclamation marks)
 
 - Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
 
@@ -89,7 +89,7 @@ print(remove_exclamation_marks("Hello World!")) #Hello World
 print(remove_exclamation_marks("Hello World!!!!")) #Hello World
 ```
 
-## Question 4 ( Total amount of points)
+### Question 4 ( Total amount of points)
 
 - Our football team finished the championship. The result of each match look like "x:y". Results of all matches are recorded in the collection.
 
@@ -124,7 +124,7 @@ points(['1:0','2:0','3:0','4:0','2:1','3:1','4:1','3:2','4:2','4:3']) # 30
 
 ```
 
-## Question 5 (Vowel remover)
+### Question 5 (Vowel remover)
 
 - Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
 
@@ -159,7 +159,7 @@ print(shortcut("HELLO")) # HELLO
 
 ```
 
-## Question 6 (Beginner Series #3 Sum of Numbers )
+### Question 6 (Beginner Series #3 Sum of Numbers )
 
 - Given two integers a and b, which can be positive or negative, find the sum of all the integers between and including them and return it. If the two numbers are equal return a or b.
 
@@ -192,5 +192,39 @@ def get_sum(a,b):
 print(get_sum(0,2)) #3
 print(get_sum(2,2)) #2
 print(get_sum(0,-1)) #-1
+
+```
+
+### Question 7 (Categorize New Member )
+
+- The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
+
+- To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap.
+
+Input
+&nbsp; Input will consist of a list of pairs. Each pair contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
+
+Output
+&nbsp; Output will consist of a list of string values (in Haskell and C: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
+
+Samples:
+
+```python
+input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
+output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+```
+
+Solution:
+
+```python
+def open_or_senior(data):
+    result = []
+    for i in data:
+        if (i[0] >= 55 and i[1] > 7 ):
+            result.append("Senior")
+        else:
+            result.append("Open")
+
+    return result # ['Open', 'Senior', 'Open', 'Senior']
 
 ```
