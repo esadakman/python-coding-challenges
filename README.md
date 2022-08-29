@@ -375,8 +375,8 @@ def flatten(lst):
            flattened .append(i)
     return flattened 
 
-print(flatten([1,2,3]))  
-print(flatten([[1,2,3],["a","b","c"],[1,2,3]]))  
-print(flatten( [[[1,2,3]]])) 
+print(flatten([1,2,3]))  # => [1,2,3]
+print(flatten([[1,2,3],["a","b","c"],[1,2,3]]))  # => [1,2,3,"a","b","c",1,2,3]
+print(flatten( [[[1,2,3]]])) # => [[1,2,3]]
 
 ```
