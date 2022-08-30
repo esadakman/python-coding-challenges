@@ -386,17 +386,17 @@ print(flatten( [[[1,2,3]]])) # => [[1,2,3]]
 - You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
 
 ```python
-getMiddle("test") should return "es"
-getMiddle("testing") should return "t"
-getMiddle("middle") should return "dd"
-getMiddle("A") should return "A"
+get_middle("test") should return "es"
+get_middle("testing") should return "t"
+get_middle("middle") should return "dd"
+get_middle("A") should return "A"
 ```
 
 Solution:
 
 ```python
-def get_middle(s): 
-    middle = len(s)/2 
+def get_middle(s):
+    middle = len(s)/2
     if (float(middle) == int(middle)):
         return (s[int(middle)-1:int(middle)+1])
     else:
@@ -406,4 +406,26 @@ print(get_middle("test")) # "es"
 print(get_middle("testing")) # "t"
 print(get_middle("middle")) # "dd"
 print(get_middle("A")) # "A"
+```
+
+## Question 14 (Highest and Lowes)
+
+- In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
+
+```python
+high_and_low("1 2 3 4 5")  # return "5 1"
+high_and_low("1 2 -3 4 5") # return "5 -3"
+high_and_low("1 9 3 4 -5") # return "9 -5"
+```
+
+Solution:
+
+```python
+def high_and_low(numbers):  
+    num = [int(x) for x in numbers.split(' ')]
+    return "{} {}".format(max(num), min(num)) 
+
+print(high_and_low("1 2 3 4 5") ) # return "5 1"
+print(high_and_low("1 2 -3 4 5"))  # return "5 -3"
+print(high_and_low("1 9 3 4 -5") ) # return "9 -5" 
 ```
