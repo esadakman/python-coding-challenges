@@ -484,3 +484,33 @@ print(least_larger( [4, 1, 3, 5, 6], 0)) # ->  3
 print(least_larger( [4, 1, 3, 5, 6], 4)) # ->  -1
 print(least_larger( [1, 3, 5, 2, 4], 0)) # ->  3
 ```
+
+## Question 17 (Longest vowel chain)
+
+- The vowel substrings in the word codewarriors are o,e,a,io. The longest of these has a length of 2. Given a lowercase string that has alphabetic characters only (both vowels and consonants) and no spaces, return the length of the longest vowel substring. Vowels are any of aeiou.
+
+```python
+solve("codewarriors") # 2
+solve("suoidea") # 3
+solve("ultrarevolutionariees") # 3
+```
+
+Solution:
+
+```python
+def solve(s): 
+    reset, counter = 0,0
+    for i in s:
+            if i in 'aeiou': 
+                counter +=1
+                if counter > reset:
+                    reset = counter
+            else:
+                counter = 0
+    return reset
+
+print(solve("strengthlessnesses")) # 1
+print(solve("cuboideonavicuare")) # 2
+print(solve("chrononhotonthuooaos")) # 5
+print(solve("iiihoovaeaaaoougjyaw")) # 8
+```
