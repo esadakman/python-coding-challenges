@@ -71,7 +71,7 @@ def fake_bin(num_str):
 
 _Return the sum of all the scores on the record._
 
-Samples:\
+Samples:
 
 ```python
  Input: str = ("Hello World!") // Output: Hello World
@@ -92,19 +92,17 @@ print(remove_exclamation_marks("Hello World!!!!")) #Hello World
 ## Question 4 ( Total amount of points)
 
 - Our football team finished the championship. The result of each match look like "x:y". Results of all matches are recorded in the collection.
+    - For example: ["3:1", "2:2", "0:1", ...]
 
--- For example: ["3:1", "2:2", "0:1", ...]
+- Write a function that takes such collection and counts the points of our team in the championship. Rules for counting points for each match:
+    - if x > y: 3 points
+    - if x < y: 0 point
+    - if x = y: 1 point
 
-- Write a function that takes such collection and counts the points of our team in the championship. Rules for counting points for each match:\
-
-if x > y: 3 points\
-if x < y: 0 point\
-if x = y: 1 point\
-
-- Notes:\
-  -there are 10 matches in the championship
-  -0 <= x <= 4
-  -0 <= y <= 4
+- Notes:
+  - there are 10 matches in the championship
+  - 0 <= x <= 4
+  - 0 <= y <= 4
 
 Solution:
 
@@ -202,10 +200,10 @@ print(get_sum(0,-1)) #-1
 - To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap.
 
 Input
-&nbsp; Input will consist of a list of pairs. Each pair contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
+&nbsp; - Input will consist of a list of pairs. Each pair contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
 
 Output
-&nbsp; Output will consist of a list of string values (in Haskell and C: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
+&nbsp; - Output will consist of a list of string values (in Haskell and C: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
 
 Samples:
 
@@ -291,7 +289,7 @@ def duplicates(array):
                 dupli.append(i)
         else:
             arr.append(i)
-    return dup 
+    return dup
 
 print(duplicates([1, 2, 4, 4, 3, 3, 1, 5, 3, '5'])) # [4, 3, 1]
 print(duplicates([0, 1, 2, 3, 4, 5])) # []
@@ -302,10 +300,8 @@ print(duplicates([0, 1, 2, 3, 4, 5])) # []
 ## Question 10 (Evens times last )
 
 - Given a sequence of integers, return the sum of all the integers that have an even index (odd index in COBOL), multiplied by the integer at the last index.
-
-Indices in sequence start from 0.
-
-If the sequence is empty, you should return 0.
+- Indices in sequence start from 0.
+- If the sequence is empty, you should return 0.
 
 ```python
 ([2, 3, 4, 5])  ==> 30
@@ -373,7 +369,7 @@ def flatten(lst):
            flattened .extend(i)
         else:
            flattened .append(i)
-    return flattened 
+    return flattened
 
 print(flatten([1,2,3]))  # => [1,2,3]
 print(flatten([[1,2,3],["a","b","c"],[1,2,3]]))  # => [1,2,3,"a","b","c",1,2,3]
@@ -421,13 +417,13 @@ high_and_low("1 9 3 4 -5") # return "9 -5"
 Solution:
 
 ```python
-def high_and_low(numbers):  
+def high_and_low(numbers):
     num = [int(x) for x in numbers.split(' ')]
-    return "{} {}".format(max(num), min(num)) 
+    return "{} {}".format(max(num), min(num))
 
 print(high_and_low("1 2 3 4 5") ) # return "5 1"
 print(high_and_low("1 2 -3 4 5"))  # return "5 -3"
-print(high_and_low("1 9 3 4 -5") ) # return "9 -5" 
+print(high_and_low("1 9 3 4 -5") ) # return "9 -5"
 ```
 
 ## Question 15 (Indexed capitalization)
@@ -456,10 +452,9 @@ def capitalize(s, ind):
 print(capitalize("abcdef",[1,2,5])) # "aBCdeF"
 print(capitalize("abcdef",[1,2,5,100])) # "aBCdeF". There is no index 100.
 ```
-
 ## Question 16 (Least Larger)
 
-- Given an array of numbers and an index, return either the index of the smallest number that is larger than the element at the given index, or -1 if there is no such index ( or, where applicable, Nothing or a similarly empty value ).
+- Given an array of numbers and an index, return either the index of the smallest number that is larger than the element at the given index, or -1 if there is no such index.
 Notes:
 - Multiple correct answers may be possible. In this case, return any one of them.
 - The given index will be inside the given array.
@@ -484,7 +479,6 @@ print(least_larger( [4, 1, 3, 5, 6], 0)) # ->  3
 print(least_larger( [4, 1, 3, 5, 6], 4)) # ->  -1
 print(least_larger( [1, 3, 5, 2, 4], 0)) # ->  3
 ```
-
 ## Question 17 (Longest vowel chain)
 
 - The vowel substrings in the word codewarriors are o,e,a,io. The longest of these has a length of 2. Given a lowercase string that has alphabetic characters only (both vowels and consonants) and no spaces, return the length of the longest vowel substring. Vowels are any of aeiou.
@@ -499,22 +493,21 @@ Solution:
 
 ```python
 def solve(s): 
-    reset, counter = 0,0
+    chain, counter = 0,0
     for i in s:
             if i in 'aeiou': 
                 counter +=1
-                if counter > reset:
-                    reset = counter
+                if counter > chain:
+                    chain = counter
             else:
                 counter = 0
-    return reset
+    return chain
 
 print(solve("strengthlessnesses")) # 1
 print(solve("cuboideonavicuare")) # 2
 print(solve("chrononhotonthuooaos")) # 5
 print(solve("iiihoovaeaaaoougjyaw")) # 8
 ```
-
 ## Question 18 (My Language Skills)
 
 - You are given a dictionary/hash/object containing some languages and your test results in the given languages. Return the list of languages where your test score is at least 60, in descending order of the results.
@@ -539,12 +532,11 @@ print(my_languages({"Java": 10, "Ruby": 80, "Python": 65} )) #  ["Ruby", "Python
 print(my_languages({"Hindi": 60, "Dutch" : 93, "Greek": 71}  )) #  ["Dutch", "Greek", "Hindi"]
 print(my_languages({"C++": 50, "ASM": 10, "Haskell": 20}     )) #  []
 ```
-
 ## Question 19 (Parts of a list)
 
 Write a function partlist that gives all the ways to divide a list (an array) of at least two elements into two non-empty parts.
 
-- Each two non empty parts will be in a pair (or an array for languages without tuples or a structin C - C: see Examples test Cases - )
+- Each two non empty parts will be in a pair  
 - Each part will be in a string
 - Elements of a pair must be in the same order as in the original array.
 
@@ -567,3 +559,34 @@ def partlist(arr):
 print(partlist(["cdIw", "tzIy", "xDu", "rThG"])) # [("cdIw", "tzIy xDu rThG"), ("cdIw tzIy", "xDu rThG"), ("cdIw tzIy xDu", "rThG")] 
 print(partlist(["vJQ", "anj", "mQDq", "sOZ"])) # [("vJQ", "anj mQDq sOZ"), ("vJQ anj", "mQDq sOZ"), ("vJQ anj mQDq", "sOZ")]
 ```
+## Question 20 (Power of two)
+
+Complete the function power_of_two/powerOfTwo (or equivalent, depending on your language) that determines if a given non-negative integer is a power of two. From the corresponding Wikipedia entry:
+
+- "a power of two is a number of the form 2n where n is an integer, i.e. the result of exponentiation with number two as the base and integer n as the exponent."
+- You may assume the input is always valid.
+
+
+```python
+power_of_two(1024) # -> true
+power_of_two(4096) # -> true
+power_of_two(333)  # -> false
+```
+
+Solution:
+
+```python
+def partlist(arr):
+    tuples = []
+    for i in range(len(arr)):
+        a = ' '.join(arr[:i])
+        b = ' '.join(arr[i:])
+        tuples.append((a,b)) 
+        
+    return tuples[1:]
+
+print(power_of_two(2)) # true
+print(power_of_two(4096)) # true
+print(power_of_two(5)) # false
+```
+ 
