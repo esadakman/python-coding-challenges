@@ -695,5 +695,55 @@ def we_rate_dogs(string, rating):
 print(we_rate_dogs('This is Tucker. He would like a hug. 3/10 someone hug him', 11)) # ".... 11/10 somenone hug him"
 print(we_rate_dogs('This is Charlie. He pouts until he gets to go on the swing. 5/10 manipulative af.', 12)) # ".... 12/10 manipulative af."
 ```
+
+## Question 24 (Human Readable Time) 
+
+- Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+    -  HH = hours, padded to 2 digits, range: 00 - 99
+    -  MM = minutes, padded to 2 digits, range: 00 - 59
+    -  SS = seconds, padded to 2 digits, range: 00 - 59
+- The maximum time never exceeds 359999 (99:59:59) 
+
+```python
+def make_readable(seconds):
+    hours = seconds/3600
+    minutes = (seconds%3600)/60
+    seconds = (seconds%3600%60)
+    return "%02d:%02d:%02d" % (hours, minutes, seconds)
+
+print(make_readable(0)) # "00:00:00"
+print(make_readable(86399)) # "23:59:59" 
+```
  
  
+## Question 25 (Zero-plentiful Array) 
+
+- An array is called zero-plentiful if it contains multiple zeros, and every sequence of zeros is at least 4 items long.
+- Your task is to return the number of zero sequences if the given array is zero-plentiful, oherwise 0.
+##### Example  
+```python            
+[0, 0, 0, 0, 0, 1]  -->  1 # 1 group of 5 zeros (>= 4), thus the result is 1 
+[0, 0, 0, 0, 1, 0]  -->  0  # 1 group of 4 zeros and 1 group of 1 zero (< 4)
+``` 
+
+```python
+def zero_plentiful(arr): 
+    result,chain = 0,0
+    for x in arr:
+        if x == 0:
+            chain += 1
+        if x != 0:
+            if chain < 4 and chain >= 1:
+                return 0
+            if chain > 3:
+                result += 1
+            chain = 0
+    if chain > 3:
+        result += 1
+    if chain < 4 and chain >= 1:
+        return 0
+    return result
+ 
+print(zero_plentiful([0,0,0,0,0,0])) # 1
+print(zero_plentiful([0, 0, 0, 0, 1, 0, 0, 0, 0])) # 2
+```
