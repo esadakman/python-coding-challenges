@@ -1,5 +1,6 @@
 # python-coding-challenges
 
+<img src="https://www.codewars.com/users/DeSaad/badges/small" alt="visitor counter" align="right" valign="center" height="28.5"/>
 ## Question 1 (Baseball Game)
 
 - You are keeping score for a baseball game with strange rules. The game consist of several rounds, where the scores of past rounds may affect future rounds' scores.
@@ -151,8 +152,7 @@ def shortcut( s ):
     return newStr
 
 
-print(shortcut("hello")) # hll
-print(shortcut("codewars")) # cdwrs
+print(shortcut("hello")) # hll 
 print(shortcut("HELLO")) # HELLO
 
 ```
@@ -343,8 +343,7 @@ def divisors(integer):
     divs = [i for i in range(2,integer) if integer % i == 0]
     return divs if len(divs) > 0 else "{} is prime".format(integer)
 
-print(divisors(12)) # [2,3,4,6]
-print(divisors(25)) # [5]
+print(divisors(12)) # [2,3,4,6] 
 print(divisors(13)) # "13 is prime"
 
 ```
@@ -354,8 +353,7 @@ print(divisors(13)) # "13 is prime"
 - Write a function that flattens an Array of Array objects into a flat Array. Your function must only do one level of flattening.
 
 ```python
-flatten [1,2,3] # => [1,2,3]
-flatten [[1,2,3],["a","b","c"],[1,2,3]]  # => [1,2,3,"a","b","c",1,2,3]
+flatten [1,2,3] # => [1,2,3] 
 flatten [[[1,2,3]]] # => [[1,2,3]]
 ```
 
@@ -372,8 +370,7 @@ def flatten(lst):
     return flattened
 
 print(flatten([1,2,3]))  # => [1,2,3]
-print(flatten([[1,2,3],["a","b","c"],[1,2,3]]))  # => [1,2,3,"a","b","c",1,2,3]
-print(flatten( [[[1,2,3]]])) # => [[1,2,3]]
+print(flatten([[1,2,3],["a","b","c"],[1,2,3]]))  # => [1,2,3,"a","b","c",1,2,3] 
 
 ```
 
@@ -398,9 +395,7 @@ def get_middle(s):
     else:
         return (s[int(middle)])
 
-print(get_middle("test")) # "es"
-print(get_middle("testing")) # "t"
-print(get_middle("middle")) # "dd"
+print(get_middle("test")) # "es" 
 print(get_middle("A")) # "A"
 ```
 
@@ -420,9 +415,7 @@ Solution:
 def high_and_low(numbers):
     num = [int(x) for x in numbers.split(' ')]
     return "{} {}".format(max(num), min(num))
-
-print(high_and_low("1 2 3 4 5") ) # return "5 1"
-print(high_and_low("1 2 -3 4 5"))  # return "5 -3"
+ 
 print(high_and_low("1 9 3 4 -5") ) # return "9 -5"
 ```
 
@@ -503,9 +496,7 @@ def solve(s):
                 counter = 0
     return chain
 
-print(solve("strengthlessnesses")) # 1
-print(solve("cuboideonavicuare")) # 2
-print(solve("chrononhotonthuooaos")) # 5
+print(solve("strengthlessnesses")) # 1 
 print(solve("iiihoovaeaaaoougjyaw")) # 8
 ```
 ## Question 18 (My Language Skills)
@@ -513,8 +504,7 @@ print(solve("iiihoovaeaaaoougjyaw")) # 8
 - You are given a dictionary/hash/object containing some languages and your test results in the given languages. Return the list of languages where your test score is at least 60, in descending order of the results.
 
 ```python
-{"Java": 10, "Ruby": 80, "Python": 65}    #  ["Ruby", "Python"]
-{"Hindi": 60, "Dutch" : 93, "Greek": 71}  #  ["Dutch", "Greek", "Hindi"]
+{"Java": 10, "Ruby": 80, "Python": 65}    #  ["Ruby", "Python"] 
 {"C++": 50, "ASM": 10, "Haskell": 20}     #  []
 ```
 
@@ -527,10 +517,8 @@ def my_languages(results):
         if (v>=60):
             res.append(k) 
     return res 
-
-print(my_languages({"Java": 10, "Ruby": 80, "Python": 65} )) #  ["Ruby", "Python"]
-print(my_languages({"Hindi": 60, "Dutch" : 93, "Greek": 71}  )) #  ["Dutch", "Greek", "Hindi"]
-print(my_languages({"C++": 50, "ASM": 10, "Haskell": 20}     )) #  []
+ 
+print(my_languages({"Hindi": 60, "Dutch" : 93, "Greek": 71}  )) #  ["Dutch", "Greek", "Hindi"] 
 ```
 ## Question 19 (Parts of a list)
 
@@ -644,8 +632,7 @@ def generate_hashtag(s):
     s = '#' + s[:] 
     return s if len(s)in range(2,140) else False
 
-print(generate_hashtag('Do We have A Hashtag')) # #DoWeHaveAHashtag
-print(generate_hashtag('codewars  is  nice')) # #CodewarsIsNice   
+print(generate_hashtag('Do We have A Hashtag')) # #DoWeHaveAHashtag 
 print(generate_hashtag('CodeWars is nice')) # #CodewarsIsNice 
 ```
 ## Question 22 (Over The Road) 
@@ -670,9 +657,7 @@ Solution:
 ```python
 def over_the_road(address, n):
     return n*2 - (address -1 )
-
-print(over_the_road(1, 3)) # 6
-print(over_the_road(3, 3)) # 4   
+   
 print(over_the_road(3, 5)) # 8
 ```
 ## Question 23 (They're good dogs.) 
@@ -692,8 +677,7 @@ def we_rate_dogs(string, rating):
     new_str = string[:num_index] + str(rating) + string[num_index + 1:] 
     return new_str
 
-print(we_rate_dogs('This is Tucker. He would like a hug. 3/10 someone hug him', 11)) # ".... 11/10 somenone hug him"
-print(we_rate_dogs('This is Charlie. He pouts until he gets to go on the swing. 5/10 manipulative af.', 12)) # ".... 12/10 manipulative af."
+print(we_rate_dogs('This is Tucker. He would like a hug. 3/10 someone hug him', 11)) # ".... 11/10 somenone hug him" 
 ```
 
 ## Question 24 (Human Readable Time) 
@@ -704,14 +688,14 @@ print(we_rate_dogs('This is Charlie. He pouts until he gets to go on the swing. 
     -  SS = seconds, padded to 2 digits, range: 00 - 59
 - The maximum time never exceeds 359999 (99:59:59) 
 
+Solution:
 ```python
 def make_readable(seconds):
     hours = seconds/3600
     minutes = (seconds%3600)/60
     seconds = (seconds%3600%60)
     return "%02d:%02d:%02d" % (hours, minutes, seconds)
-
-print(make_readable(0)) # "00:00:00"
+ 
 print(make_readable(86399)) # "23:59:59" 
 ```
  
@@ -725,7 +709,7 @@ print(make_readable(86399)) # "23:59:59"
 [0, 0, 0, 0, 0, 1]  -->  1 # 1 group of 5 zeros (>= 4), thus the result is 1 
 [0, 0, 0, 0, 1, 0]  -->  0  # 1 group of 4 zeros and 1 group of 1 zero (< 4)
 ``` 
-
+Solution:
 ```python
 def zero_plentiful(arr): 
     result,chain = 0,0
@@ -743,7 +727,33 @@ def zero_plentiful(arr):
     if chain < 4 and chain >= 1:
         return 0
     return result
- 
-print(zero_plentiful([0,0,0,0,0,0])) # 1
+  
 print(zero_plentiful([0, 0, 0, 0, 1, 0, 0, 0, 0])) # 2
+```
+
+## Question 26 (Take a Number And Sum Its Digits Raised To The Consecutive Powers And ....¡Eureka!!)
+
+- The number 89 is the first integer with more than one digit that fulfills the property partially introduced in the title of this kata. What's the use of saying "Eureka"? Because this sum gives the same number. 
+    - In effect: 89 = 8^1 + 9^2
+
+- We need a function to collect these numbers, that may receive two integers a, b that defines the range [a, b] (inclusive) and outputs a list of the sorted numbers in the range that fulfills the property described above.
+
+- Let's see some cases (input -> output):
+##### Example  
+```python            
+1, 10 -> [1, 2, 3, 4, 5, 6, 7, 8, 9] 
+1, 100 -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 89]
+``` 
+Solution:
+```python
+def sum_dig_pow(a, b):
+    eureka = []
+    # print(*enumerate(range(a, b + 1)))
+    for num in range(a, b + 1):
+        sum_num = sum(int(j) ** (index + 1) for index, j in enumerate(str(num)))
+        if sum_num == num:
+            eureka.append(num)
+    return eureka      
+
+print(sum_dig_pow(10, 100)) # [89]
 ```
