@@ -1,6 +1,4 @@
-# python-coding-challenges
-
-<img src="https://www.codewars.com/users/DeSaad/badges/small" alt="visitor counter" align="right" valign="center" height="28.5"/>
+# python-coding-challenges  <a href="https://www.codewars.com/users/DeSaad" target="_blank"> <img src="https://www.codewars.com/users/DeSaad/badges/small" alt="visitor counter" align="right" valign="center" height="28.5"/></a>
 ## Question 1 (Baseball Game)
 
 - You are keeping score for a baseball game with strange rules. The game consist of several rounds, where the scores of past rounds may affect future rounds' scores.
@@ -25,7 +23,6 @@ Solution:
 ```python
 def baseball(ops) :
     arr = []
-
     for i in ops:
         if i == "+" :
             arr.append(arr[-1] + arr[-2])
@@ -35,27 +32,21 @@ def baseball(ops) :
             arr.pop()
         else:
             arr.append(int(i))
-
     return sum(arr)
 
 ops = ["5", "2", "C", "D", "+"]
-print(baseball(ops)) # 30
-ops = ["5", "-2", "4", "C", "D", "9", "+", "+"]
-print(baseball(ops)) # 27
-```
-
+print(baseball(ops)) # 30 
+``` 
 ## Question 2 (Fake Binary)
 
 - Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
 
-Note: input will never be an empty string
-
+Note: input will never be an empty string 
 Solution:
 
 ```python
 def fake_bin(num_str):
     binary = ""
-
     for i in num_str:
         if int(i) < 5:
             binary += "0"
@@ -69,18 +60,15 @@ def fake_bin(num_str):
 ## Question 3 (Remove exclamation marks)
 
 - Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
-
-_Return the sum of all the scores on the record._
+- Return the sum of all the scores on the record._
 
 Samples:
-
 ```python
  Input: str = ("Hello World!") // Output: Hello World
  Input: str = ("Hello World!!!") // Output: Hello World
 ```
 
 Solution:
-
 ```python
 def remove_exclamation_marks(str):
 
@@ -94,12 +82,10 @@ print(remove_exclamation_marks("Hello World!!!!")) #Hello World
 
 - Our football team finished the championship. The result of each match look like "x:y". Results of all matches are recorded in the collection.
     - For example: ["3:1", "2:2", "0:1", ...]
-
 - Write a function that takes such collection and counts the points of our team in the championship. Rules for counting points for each match:
     - if x > y: 3 points
     - if x < y: 0 point
     - if x = y: 1 point
-
 - Notes:
   - there are 10 matches in the championship
   - 0 <= x <= 4
@@ -118,7 +104,6 @@ def points(games):
             result+=1
     return result
 
-
 points(['1:0','2:0','3:0','4:0','2:1','3:1','4:1','3:2','4:2','4:3']) # 30
 
 ```
@@ -126,9 +111,7 @@ points(['1:0','2:0','3:0','4:0','2:1','3:1','4:1','3:2','4:2','4:3']) # 30
 ## Question 5 (Vowel remover)
 
 - Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
-
 Samples:
-
 ```python
 "hello" --> "hll"\
 "codewars" --> "cdwrs"\
@@ -151,10 +134,8 @@ def shortcut( s ):
             newStr = newStr.replace(i,"")
     return newStr
 
-
 print(shortcut("hello")) # hll 
 print(shortcut("HELLO")) # HELLO
-
 ```
 
 ## Question 6 (Beginner Series #3 Sum of Numbers )
@@ -190,18 +171,15 @@ def get_sum(a,b):
 print(get_sum(0,2)) #3
 print(get_sum(2,2)) #2
 print(get_sum(0,-1)) #-1
-
 ```
 
 ## Question 7 (Categorize New Member )
 
 - The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
-
 - To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap.
 
 Input
 &nbsp; - Input will consist of a list of pairs. Each pair contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
-
 Output
 &nbsp; - Output will consist of a list of string values (in Haskell and C: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
 
@@ -224,7 +202,6 @@ def open_or_senior(data):
             result.append("Open")
 
     return result # ['Open', 'Senior', 'Open', 'Senior']
-
 ```
 
 ## Question 8 (Combine objects )
@@ -256,12 +233,9 @@ def combine(*args):
                 combined[j] = k
     return combined
 
-
 objA = { 'a': 10, 'b': 20, 'c': 30 }
 objB = { 'a': 3, 'c': 6, 'd': 3 }
 print(combine(objA, objB)) # Returns { a: 13, b: 20, c: 36, d: 3 }
-
-
 ```
 
 ## Question 9 (Find Duplicates )
@@ -293,8 +267,6 @@ def duplicates(array):
 
 print(duplicates([1, 2, 4, 4, 3, 3, 1, 5, 3, '5'])) # [4, 3, 1]
 print(duplicates([0, 1, 2, 3, 4, 5])) # []
-
-
 ```
 
 ## Question 10 (Evens times last )
@@ -345,7 +317,6 @@ def divisors(integer):
 
 print(divisors(12)) # [2,3,4,6] 
 print(divisors(13)) # "13 is prime"
-
 ```
 
 ## Question 12 (Flatten)
@@ -371,7 +342,6 @@ def flatten(lst):
 
 print(flatten([1,2,3]))  # => [1,2,3]
 print(flatten([[1,2,3],["a","b","c"],[1,2,3]]))  # => [1,2,3,"a","b","c",1,2,3] 
-
 ```
 
 ## Question 13 (Get the Middle Character)
@@ -620,7 +590,6 @@ Here's the deal:
 - If the input or the result is an empty string it must return false.
 ```python
 " Hello there thanks for trying my Kata"  =>  "#HelloThereThanksForTryingMyKata"
-"    Hello     World   "                  =>  "#HelloWorld"
 ""                                        =>  false
 ```
 
@@ -754,6 +723,26 @@ def sum_dig_pow(a, b):
         if sum_num == num:
             eureka.append(num)
     return eureka      
+
+print(sum_dig_pow(10, 100)) # [89]
+```
+## Question 27 (Find the missing letter)
+
+- Write a method that takes an array of consecutive (increasing) letters as input and that returns the missing letter in the array.
+
+- You will always get an valid array. And it will be always exactly one letter be missing. The length of the array will always be at least 2.
+The array will always contain letters in only one case.
+##### Example  
+```python            
+["a","b","c","d","f"] -> "e"
+["O","Q","R","S"] -> "P"
+``` 
+Solution:
+```python
+def find_missing_letter(chars): 
+    for x,y in zip(chars,chars[1:]):
+        if ((ord(x)+1) != (ord(y))) :
+            return chr(ord(x)+1)
 
 print(sum_dig_pow(10, 100)) # [89]
 ```
