@@ -39,12 +39,12 @@
   <tr>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/8_kyu/vowel_remover.md" >vowel_remover</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/even_last.md" >even_last</a></td>
-    <td><a href="" ></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/dead_fish.md">dead_fish</a></td> 
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
-    <td><a href=""></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/modify_multiply.md">modify_multiply</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/find_duplicates.md" >find_duplicates</a></td>
     <td><a href="" ></a></td> 
     <td><a href="" ></a></td>
