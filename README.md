@@ -53,7 +53,7 @@
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/find_missing_letter.md" >find_missing_letter</a></td>
-    <td><a href="" ></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/alphabet_position.md" >alphabet_position</a></td> 
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
