@@ -74,7 +74,7 @@
   <tr>
     <td><a href=""></a></td>
     <td><a href=https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/get_sum.md" >get_sum</a></td>
-    <td><a href="" ></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/check_availability.md" >check_availability</a></td> 
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
