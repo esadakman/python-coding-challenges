@@ -81,7 +81,7 @@
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/high_and_low.md" >high_and_low</a></td>
-    <td><a href="" ></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/split_strings.md" >split_strings</a></td> 
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
