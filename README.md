@@ -40,7 +40,7 @@
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/8_kyu/vowel_remover.md" >vowel_remover</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/even_last.md" >even_last</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/dead_fish.md">dead_fish</a></td> 
-    <td><a href="" ></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/anagrams.md" >anagrams</a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>

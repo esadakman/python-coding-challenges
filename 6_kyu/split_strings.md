@@ -7,14 +7,21 @@
 * 'abc' =>  ['ab', 'c_']
 * 'abcdef' => ['ab', 'cd', 'ef']
 ``` 
-Solution:
+Solution 1:
 ```python
 import re
 def solution(arr): 
     arr = arr+'_' if len(arr)%2 != 0 else arr 
     return re.findall('..?', arr)
   
-print(solution(("asdfadsf"))) # ['as', 'df', 'ad', 'sf']
+print(solution(("asdfadsf"))) # ['as', 'df', 'ad', 'sf'] 
+```
+Solution 2:
+```python
+def solution(arr): 
+    arr = arr+'_' if len(arr)%2 != 0 else arr 
+    return list(map(''.join, zip(*[iter(arr)]*2)))
+   
 print(solution(("asdfads"))) # ['as', 'df', 'ad', 's_'] 
-print(solution(("x"))) # 2 ['x_]
+print(solution(("x"))) # 2 ['x_] 
 ```
