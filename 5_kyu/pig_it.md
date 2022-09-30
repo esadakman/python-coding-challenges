@@ -25,5 +25,5 @@ import string
 def pig_it(text):  
     return " " .join([i if i in string.punctuation else i[1:]+i[0]+"ay" for i in text.split() ]) 
 
-print(pig_it('This is my string')) # 'hisTay siay ymay tringsay'
+print(pig_it('O tempora o mores !')) # 'Oay emporatay oay oresmay !'S
 ```
