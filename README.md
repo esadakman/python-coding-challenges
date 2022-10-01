@@ -54,35 +54,35 @@
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/find_missing_letter.md" >find_missing_letter</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/alphabet_position.md" >alphabet_position</a></td> 
-    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/luck_check.md" >luck_check</a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/_______.md" >luck_check</a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/flatten.md" >flatten</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/count_smileys.md" >count_smileys</a></td>  
-    <td><a href="" ></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/_______.md"></a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/get_middle.md" >get_middle</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/max_sum.md">max_sum</a></td> 
-    <td><a href="" ></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/_______.md"></a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
     <td><a href=""></a></td>
     <td><a href=https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/get_sum.md" >get_sum</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/check_availability.md" >check_availability</a></td> 
-    <td><a href="" ></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/_______.md"></a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/high_and_low.md" >high_and_low</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/split_strings.md" >split_strings</a></td> 
-    <td><a href="" ></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/_______.md"></a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
