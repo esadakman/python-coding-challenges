@@ -54,7 +54,7 @@
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/find_missing_letter.md" >find_missing_letter</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/alphabet_position.md" >alphabet_position</a></td> 
-    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/_______.md" >luck_check</a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/luck_check.md" >luck_check</a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
@@ -88,7 +88,7 @@
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/least_larger.md" >least_larger</a></td>
-    <td><a href="" ></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/reverse_alternate.md" >reverse_alternate</a></td> 
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
