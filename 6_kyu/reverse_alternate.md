@@ -9,7 +9,9 @@ def reverse_alternate(string):
 print(reverse_alternate("Did it work?")) # "Did ti work?"
 print(reverse_alternate("I really hope it works this time...")) # "I yllaer hope ti works siht time..." 
 
+```
 Solution 2:
+
 ```python 
 def reverse_alternate(string):
     string = string.split()

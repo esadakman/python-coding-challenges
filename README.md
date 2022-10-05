@@ -61,7 +61,7 @@
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/flatten.md" >flatten</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/count_smileys.md" >count_smileys</a></td>  
-    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/_______.md"></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/scramble.md">scramblies</a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
