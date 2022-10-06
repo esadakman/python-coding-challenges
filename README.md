@@ -1,7 +1,6 @@
 # python-coding-challenges <a href="https://www.codewars.com/users/DeSaad" target="_blank"> <img src="https://www.codewars.com/users/DeSaad/badges/small" alt="visitor counter" align="right" valign="center" height="28.5"/></a>
 
- Solutions to CodeWars programming tasks. I try to update every day
-
+Solutions to CodeWars programming tasks. I try to update every day
 
 <p align='center'>
 <table>
@@ -95,7 +94,7 @@
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/longest_vowel.md" >longest_vowel</a></td>
-    <td><a href="" ></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/find_uniq.md" >find_uniq</a></td> 
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
@@ -148,7 +147,6 @@
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
-  
 
 
 </table>
