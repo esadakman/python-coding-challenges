@@ -101,7 +101,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/max_rot.md" >max_rot</a></td>
-    <td><a href="" ></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/spin_words.md" >spin_words</a></td> 
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
