@@ -67,7 +67,7 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/get_middle.md" >get_middle</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/max_sum.md">max_sum</a></td> 
-    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/_______.md"></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/is_merge.md">is_merge</a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
