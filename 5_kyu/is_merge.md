@@ -14,7 +14,7 @@
     s:  c o d e w a r s   = codewars
 part1:  c   d   w         = cdw
 part2:    o   e   a r s   = oears 
-
+```
 
 Solution :
 
