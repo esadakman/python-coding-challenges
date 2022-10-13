@@ -16,9 +16,9 @@ Solution :
 ```python
 def unique_in_order(iterable):
     res = []
-    for item in iterable:
-        if len(res) == 0 or item != res[-1]:
-            res.append(item)
+    for i in iterable:
+        if len(res) == 0 or i != res[-1]:
+            res.append(i)
     return res
 
 print(unique_in_order('AAAABBBCCDAABBB')) # ['A','B','C','D','A','B']
