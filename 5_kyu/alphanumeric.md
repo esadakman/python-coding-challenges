@@ -10,7 +10,8 @@
 Solution:
 ```python
 def alphanumeric(password):
-    return " " not in password and len([c for c in password if c.isdigit() or c.isalpha()]) == len(password) and len(password) > 0
+    return " " not in password and len([i for i in password if i.isdigit() or i.isalpha()]) == len(password) and len(password) > 0
 
 print(alphanumeric("hello world_")) # False 
+print(alphanumeric("PassW0rd" )) # True 
 ``` 
