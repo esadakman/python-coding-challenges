@@ -136,7 +136,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/power_of_two.md" >power_of_two</a></td>
-    <td><a href="" ></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/camel_case.md" >camel_case</a></td> 
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
