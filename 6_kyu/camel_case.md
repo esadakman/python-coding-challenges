@@ -9,13 +9,19 @@ camelcase("hello case") => HelloCase
 camelcase("camel case word") => CamelCaseWord
 ```
 
-Solution:
+Solution 1:
 
-```python
-from re import sub
-def camel_case(s):
-  s = sub(r"(_|-)+", " ", s).title().replace(" ", "")
-  return ''.join([s[0].upper(), s[1:]])
+```python 
+def camel_case(str):
+  return str.title().replace(" ", "")
+
+print(camel_case("test case")) "TestCase"
+```
+Solution 2:
+
+```python 
+def camel_case(str):
+  return sub(r"/(?:^\w|[A-Z]|\b\w)/g", " ", str).title().replace(" ", "") if len(str) > 0 else ""  
 
 print(camel_case("test case")) "TestCase"
 ```
