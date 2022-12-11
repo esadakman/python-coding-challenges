@@ -143,7 +143,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   <tr>
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/we_rate_dogs.md" >we_rate_dogs</a></td>
-    <td><a href="" ></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/chasers_schedule.md" >chasers_schedule</a></td>
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr> 
