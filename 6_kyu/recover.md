@@ -1,4 +1,4 @@
-## Digit Recovery
+## [Digit Recovery](https://www.codewars.com/kata/5964d7e633b908e172000046)
 
 - Some letters in the input string are representing a written-out digit. Some of the letters may randomly shuffled. Your task is to recover them all.
 

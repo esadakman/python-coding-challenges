@@ -1,4 +1,4 @@
-## Chaser's Schedule  
+## [Chaser's Schedule](https://www.codewars.com/kata/628df6b29070907ecb3c2d83)  
 
 - A runner, who runs with base speed `s` with duration `t` will cover a distances `d: d = s * t` 
 

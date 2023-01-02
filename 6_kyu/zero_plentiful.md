@@ -1,5 +1,4 @@
-## Zero-plentiful Array 
-
+## [Zero-plentiful Array](https://www.codewars.com/kata/59e270da7997cba3d3000041)
 - An array is called zero-plentiful if it contains multiple zeros, and every sequence of zeros is at least 4 items long.
 - Your task is to return the number of zero sequences if the given array is zero-plentiful, oherwise 0.
 ##### Example  
