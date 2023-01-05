@@ -1,4 +1,4 @@
-## Parts of a list
+## [Parts of a list](https://www.codewars.com/kata/56f3a1e899b386da78000732)
 
 Write a function partlist that gives all the ways to divide a list (an array) of at least two elements into two non-empty parts.
 

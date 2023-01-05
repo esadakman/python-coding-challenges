@@ -1,4 +1,4 @@
-## Merged String Checker
+## [Merged String Checker](https://www.codewars.com/kata/54c9fcad28ec4c6e680011aa)
 
 - At a job interview, you are challenged to write an algorithm to check if a given string, s, can be formed from two other strings, part1 and part2.
 
@@ -16,7 +16,7 @@ part1:  c   d   w         = cdw
 part2:    o   e   a r s   = oears 
 ```
 
-Solution :
+##### Solution :
 
 ```python
 def is_merge(s, part1, part2):

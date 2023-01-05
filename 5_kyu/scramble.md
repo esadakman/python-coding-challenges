@@ -1,4 +1,4 @@
-## Scramblies
+## [Scramblies](https://www.codewars.com/kata/55c04b4cc56a697bb0000048)
 
 - Complete the function scramble(str1, str2) that returns true if a portion of str1 characters can be rearranged to match str2, otherwise returns false.
 
@@ -7,12 +7,12 @@ Notes:
 - Only lower case letters will be used (a-z). No punctuation or digits will be included.
 - Performance needs to be considered.
 
-Examples:
+##### Examples:
 ```js
 scramble('rkqodlw', 'world') ==> True 
 scramble('katas', 'steak') ==> False
 ```
-Solutions:
+##### Solutions:
 ```python
 def scramble(s1, s2):
     for i in set(s2):

@@ -43,7 +43,7 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href="" ></a></td>
   </tr> 
   <tr>
-    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/modify_multiply.md">modify_multiply</a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/8_kyu/multiply.md">multiply</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/find_duplicates.md" >find_duplicates</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/get_participants.md" >get_participants</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/pig_it.md" >pig_it</a></td>
@@ -51,7 +51,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr> 
   <tr>
     <td><a href=""></a></td>
-    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/find_missing_letter.md" >find_missing_letter</a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/string_ends_with.md" >string_ends_with</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/alphabet_position.md" >alphabet_position</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/luck_check.md" >luck_check</a></td>
     <td><a href="" ></a></td>
@@ -151,6 +151,13 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/declare_winner.md" >declare_winner</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/narcissistic.md" >narcissistic</a></td>
+    <td><a href="" ></a></td>
+    <td><a href="" ></a></td>
+  </tr>
+  <tr>
+    <td><a href=""></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/modify_multiply.md">modify_multiply</a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/find_missing_letter.md" >find_missing_letter</a></td>
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr>

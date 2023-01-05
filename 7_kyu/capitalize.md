@@ -1,4 +1,4 @@
-## Indexed capitalization
+## [Indexed capitalization](https://www.codewars.com/kata/59cfc09a86a6fdf6df0000f1)
 
 - Given a string and an array of integers representing indices, capitalize all letters at the given indices.
 

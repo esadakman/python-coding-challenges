@@ -1,4 +1,4 @@
-## Simple Pig Latin
+## [Simple Pig Latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f)
 
 - Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
 
@@ -9,7 +9,7 @@ pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 pigIt('Hello world !');     // elloHay orldway !
 ```
 
-Solution 1:
+##### Solution 1:
 
 ```python
 def pig_it(text):
@@ -18,7 +18,7 @@ def pig_it(text):
 print(pig_it('Pig latin is cool')) # 'igPay atinlay siay oolcay'
 print(pig_it('This is my string')) # 'hisTay siay ymay tringsay'
 ```
-Solution 2:
+##### Solution 2:
 
 ```python
 import string 

@@ -1,4 +1,4 @@
-## Combine objects
+## [Combine objects](https://www.codewars.com/kata/56bd9e4b0d0b64eaf5000819)
 
 - Your task is to write a function that takes two or more objects and returns a new object which combines all the input objects.
 

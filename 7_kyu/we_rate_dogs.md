@@ -1,4 +1,4 @@
-## They're good dogs. 
+## [They're good dogs.](https://www.codewars.com/kata/5965144da82d479517000001) 
 
 - The function weRateDogs(str, rating) takes a string and an integer as the inputs. Within the string is an incorrect rating x/y.
 - You will need to change the incorrect rating x/y to the correct rating rating/10. The given string may contain numbers and letters, but no special characters other than /.  

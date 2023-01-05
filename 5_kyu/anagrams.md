@@ -1,4 +1,4 @@
-## Where my anagrams at?
+## [Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)
 
 - What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. For example:
 
@@ -16,7 +16,7 @@ anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) => ['aabb', 'bbaa']
 anagrams('laser', ['lazing', 'lazy',  'lacer']) => []  
 ``` 
  
-Solution:
+##### Solution:
 ```python
 def anagrams(word, words):  
     return list(i for i in words if sorted(word) == sorted(i)) 

@@ -1,4 +1,4 @@
-## Multiply Word in String
+## [Multiply Word in String](https://www.codewars.com/kata/5ace2d9f307eb29430000092)
 
 - You are to write a function that takes a string as its first parameter. This string will be a string of words.
 
