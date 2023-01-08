@@ -19,7 +19,7 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/capitalize.md" >capitalize</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/eureka.md" >eureka</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/generate_hashtag.md" >generate_hashtag</a></td>
-    <td><a href="" >baseball_game</a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/others/baseball_game.md" >baseball_game</a></td>
   </tr> 
   <tr>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/8_kyu/remove_exclamation.md" >remove_exclamation</a></td>
@@ -72,7 +72,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr> 
   <tr>
     <td><a href=""></a></td>
-    <td><a href=https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/get_sum.md" >get_sum</a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/get_sum.md" >get_sum</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/check_availability.md" >check_availability</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/alphanumeric.md">alphanumeric</a></td>
     <td><a href="" ></a></td>
@@ -158,6 +158,13 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/modify_multiply.md">modify_multiply</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/find_missing_letter.md" >find_missing_letter</a></td>
+    <td><a href="" ></a></td>
+    <td><a href="" ></a></td>
+  </tr>
+  <tr>
+    <td><a href=""></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/triangle_area.md">triangle_area</a></td> 
+    <td><a href="" ></a></td>
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr>
