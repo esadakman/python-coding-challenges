@@ -81,7 +81,7 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/high_and_low.md" >high_and_low</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/split_strings.md" >split_strings</a></td> 
-    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/_______.md"></a></td>
+     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/josephus_survivor.md">josephus_survivor</a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
