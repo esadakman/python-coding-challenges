@@ -88,7 +88,7 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/least_larger.md" >least_larger</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/reverse_alternate.md" >reverse_alternate</a></td> 
-    <td><a href="" ></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/max_sequence.md">max_sequence</a></td>
     <td><a href="" ></a></td>
   </tr> 
   <tr>
