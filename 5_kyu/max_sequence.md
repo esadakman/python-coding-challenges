@@ -16,17 +16,13 @@ max_sequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]);
 ```python
 
 def max_sequence(arr):
-    ans = 0
-    sum = 0
-
-    for i in range(len(arr)):
-        ans = max(0, ans + arr[i])
+    ans = sum = 0
+    for i in arr:
+        ans = max(0, ans + i)
         sum = max(sum, ans)
-
     return sum
 
 
 print(max_sequence([]))  # 0
-print(max_sequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]))  # 6
-
+print(max_sequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]))  # 6 
 ```
