@@ -50,7 +50,7 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href="" ></a></td>
   </tr> 
   <tr>
-    <td><a href=""></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/8_kyu/no_space.md">no_space</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/string_ends_with.md" >string_ends_with</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/alphabet_position.md" >alphabet_position</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/luck_check.md" >luck_check</a></td>
