@@ -217,6 +217,13 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr>
+  <tr>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/find_outlier.md" >find_outlier</a></td>
+    <td><a href="" ></a></td>
+    <td><a href="" ></a></td>
+  </tr>
 
 </table>
 </p>
