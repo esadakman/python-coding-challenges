@@ -5,7 +5,7 @@
 - Return as a number.
 
 
-Solution:
+#### Solution:
 
 ```python
 def div_con(x):
