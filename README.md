@@ -198,7 +198,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/convert_palindromes.md">convert_palindromes</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/sel_reverse.md" >sel_reverse</a></td>
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
