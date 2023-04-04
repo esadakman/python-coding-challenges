@@ -205,7 +205,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/consecutive.md">consecutive</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/simple_frequency_sort.md" >simple_frequency_sort</a></td>
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
