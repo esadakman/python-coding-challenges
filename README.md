@@ -219,7 +219,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/sum_factorial.md">sum_factorial</a></td>  
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/find_outlier.md" >find_outlier</a></td>
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
