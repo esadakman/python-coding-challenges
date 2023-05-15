@@ -241,7 +241,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/remove_marked_elements.md">remove_marked_elements</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/greatest_distance.md" >greatest_distance</a></td>
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
