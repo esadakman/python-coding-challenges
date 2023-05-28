@@ -255,14 +255,14 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/alphabetSymmetry.md">alphabetSymmetry</a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/alphabetSymmetry.md">alphabet_symmetry</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/circle_slash.md" >circle_slash</a></td>
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/sequence_sum.md">sequence_sum</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/what_time_is_it.md" >what_time_is_it</a></td>
     <td><a href="" ></a></td>
     <td><a href="" ></a></td>
