@@ -95,7 +95,7 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href=""></a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/longest_vowel.md" >longest_vowel</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/find_uniq.md">find_uniq</a></td> 
-    <td><a href=""></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/choose_best_sum.md">choose_best_sum</a></td>
     <td><a href=""></a></td>
   </tr> 
   <tr>
