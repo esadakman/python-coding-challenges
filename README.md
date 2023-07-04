@@ -290,7 +290,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/array_element_parity.md">array_element_parity</a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/friend_or_foe.md">friend_or_foe</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/binary_to_string.md" >binary_to_string</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
