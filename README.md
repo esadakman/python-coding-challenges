@@ -311,7 +311,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/main_diagonal_product.md">main_diagonal_product</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/anagram_difference.md" >anagram_difference</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
