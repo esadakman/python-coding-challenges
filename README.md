@@ -339,7 +339,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/noonerize.md">noonerize</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/consonant_value.md" >consonant_value</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
