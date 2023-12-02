@@ -57,7 +57,7 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href=""></a></td>
   </tr> 
   <tr>
-    <td><a href=""></a></td>
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/8_kyu/am_i_wilson.md">am_i_wilson</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/flatten.md">flatten</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/count_smileys.md" >count_smileys</a></td>  
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/5_kyu/scramble.md">scramblies</a></td>
