@@ -1,4 +1,4 @@
-## [What century is it?](https://www.codewars.com/kata/55dc4520094bbaf50e0000cb)
+## [What century is it?](https://www.codewars.com/kata/52fb87703c1351ebd200081f)
 
 - Return the century of the input year. The input will always be a 4 digit string, so there is no need for validation.
 
