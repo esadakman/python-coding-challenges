@@ -407,5 +407,12 @@ Solutions to CodeWars programming tasks. I try to update every day
     <td><a href=""></a></td>
     <td><a href=""></a></td>
   </tr>
+  <tr>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/create_two_sets_of_equal_sum.md" >create_two_sets_of_equal_sum</a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+  </tr>
 </table>
 </p>
