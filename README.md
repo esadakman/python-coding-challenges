@@ -346,7 +346,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/7_kyu/nth_floyd.md">nth_floyd</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/calculate_cart_total.md" >calculate_cart_total</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
