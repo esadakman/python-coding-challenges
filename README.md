@@ -360,7 +360,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/javaScript-coding-challenges/blob/master/7_kyu/calculate_total.md">calculate_total</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/pos_average.md" >pos_average</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
