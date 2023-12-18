@@ -367,7 +367,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/javaScript-coding-challenges/blob/master/7_kyu/gps.md">gps</a></td>
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/reverse_fizz_buzz.md" >reverse_fizz_buzz</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
