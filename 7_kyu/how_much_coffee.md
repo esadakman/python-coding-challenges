@@ -20,7 +20,15 @@ Each event can be downcase/lowercase, or uppercase. If it is downcase/lowercase 
 
 ```python
 def how_much_coffee(events):
-    return 0
+    orderArr = ['cw','CW','cat','CAT','dog','DOG', 'movie', 'MOVIE']
+    count = 0
+    for i in range(len(events)):
+        if events[i] in orderArr:
+            if events[i] == events[i].lower():
+                count +=1
+            else:
+                count+=2
+    return 'You need extra sleep' if count > 3 else count
 
 
 print(how_much_coffee(['cw'])) # 1
