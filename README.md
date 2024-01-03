@@ -395,7 +395,7 @@ Solutions to CodeWars programming tasks. I try to update every day
   </tr>
   <tr>
     <td><a href=""></a></td>
-    <td><a href=""></a></td> 
+    <td><a href="https://github.com/esadakman/javaScript-coding-challenges/blob/master/7_kyu/get_Divisors_Cnt.md">get_Divisors_Cnt</a></td> 
     <td><a href="https://github.com/esadakman/python-coding-challenges/blob/master/6_kyu/what_century.md" >what_century</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
